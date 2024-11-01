@@ -1,0 +1,66 @@
+input.survey_name {width: 300px;}  .display_survey_form_section {width: 71%;margin: 70px 0px 0px 30px;}
+table.display_survey_form_table {border: 1px solid;border-collapse: collapse;width: 100%;}
+.display_survey_form_table tbody tr td {border: 1px solid black;padding: 10px 10px 10px 10px;}
+.display_survey_form_table tbody tr td input[type="text"] {width: 100%;}
+.display_survey_form_table thead tr th {padding: 10px 10px 10px 10px;border: 1px solid black;}
+.delete_survey_form {float: right;}
+.button {color: rgba(30, 22, 54, 0.6);box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;}
+.edit_survey_form a {color: black;text-decoration: none;display: inline-block;padding: 2px 10px 10px 10px;}
+.display_survey_form_table thead tr th:nth-child(1) {width: 70%;}
+.error {display: block;color: #ec0000;}
+.newClass {display: inline-block;width: 100%;padding: 0 !important;}
+.question_option {display: inline-block;}
+table.survey_form_table.form-table td {padding: 0 !important;}
+lable.add_option {background: #008ec2;border-color: #006799;color: #fff;padding: 5px 20px 8px 20px;border-radius: 10px;cursor: pointer; display: inline-block;}
+lable.remove_option {background: #D24D57;border-color: #D24D57;color: #fff;padding: 5px 20px 8px 20px;border-radius: 10px;cursor: pointer;display: none;}
+.newClass .remove_option {display: inline-block;}
+.newClass .add_option {display: none;}
+input.survey_name.error{display: inline-block;}
+
+/* Rounded sliders */
+.slider.round {border-radius: 34px;}
+.slider.round:before {border-radius: 50%;}
+.switch {position: relative;display: block;width: 60px;height: 34px;margin: 0 auto;}
+.switch input {display:none;}
+.slider {position: absolute;cursor: pointer;top: 0;left: 0;right: 0;bottom: 0;background-color: #ccc;-webkit-transition: .4s;transition: .4s;}
+.slider:before {position: absolute;content: "";height: 22px;width: 22px;left: 4px;bottom: 6px;background-color: white;-webkit-transition: .4s;transition: .4s;}  
+input:checked + .slider {background-color: #2196F3;}
+input:focus + .slider {box-shadow: 0 0 1px #2196F3;}
+input:checked + .slider:before {-webkit-transform: translateX(26px);-ms-transform: translateX(26px);transform: translateX(26px);}
+.active_deactivate_buttons {margin: 25px 0px 25px 0px;}
+.disable_class {display: none;}
+label.edit_survey_form.button {padding: 0px;background: #00a228;border-radius: 10px;border: 0; box-shadow: none;margin-right: 10px;}
+label.delete_survey_form.button {padding: 2px 10px 10px 10px;background: #ef2100;border-radius: 10px;border: 0; box-shadow: none;}
+table.display_survey_form_table .action_block.wrap{text-align: right;}
+table.display_survey_form_table .action-blk-td{width: 12%;}
+.edit_survey_form a,.edit_survey_form a:focus,.edit_survey_form a:active{outline: 0;box-shadow: none;}
+.dashicons {color: white;}
+.question_option  .dashicons {vertical-align: middle !important;}
+label.edit_survey_form.button:hover {background: #00a228;border: none;box-shadow: none;padding: 0px;}
+label.delete_survey_form.button:hover {background: #ef2100;border: none;box-shadow: none;padding: 2px 10px 10px 10px;}
+.copy_to_clip_board{ text-align: center; }
+.copy_to_clip_board .dashicons {color: black;}
+.copy-to-clipboard {padding: 0px 18px 0px 16px;}
+.status_table th {vertical-align: top;text-align: left;padding: 20px 10px 20px 0;width: 200px;line-height: 1.3;font-weight: 600;}
+.status_table td {padding: 0 !important;}
+.error { border: 1px solid red !important;color: red !important; }
+/* .reset_option {background: #4ab905;border-color: #4ab905;color: #fff;padding: 5px 20px 8px 20px;border-radius: 10px;cursor: pointer;margin-left: 10px;display: inline-block;} */
+
+/*Reset Buttoon*/
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+/* Global Button Styles */
+a.animated-button:link, a.animated-button:visited {position: relative;display: block; /* margin: 30px auto 0; */padding: 14px 15px;color: #fff;font-size:14px;font-weight: bold;text-align: center;text-decoration: none;text-transform: uppercase;overflow: hidden;letter-spacing: .08em;border-radius: 0;text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);-webkit-transition: all 1s ease;-moz-transition: all 1s ease;-o-transition: all 1s ease;transition: all 1s ease;}
+a.animated-button:link:after, a.animated-button:visited:after {content: "";position: absolute;height: 0%;left: 50%;top: 50%;width: 150%;z-index: -1;-webkit-transition: all 0.75s ease 0s;-moz-transition: all 0.75s ease 0s;-o-transition: all 0.75s ease 0s;transition: all 0.75s ease 0s;}
+a.animated-button:link:hover, a.animated-button:visited:hover {color: #FFF;text-shadow: none;}
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {height: 450%;}
+a.animated-button:link, a.animated-button:visited {position: relative;display: inline-block; /* margin: 30px auto 0; */padding: 14px 15px;color: #040303;font-size: 14px;border-radius: 37px;font-weight: bold;text-align: center;text-decoration: none;text-transform: uppercase;overflow: hidden;letter-spacing: .08em;text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);-webkit-transition: all 1s ease;-moz-transition: all 1s ease;-o-transition: all 1s ease;transition: all 1s ease;line-height: 0;}
+/* Victoria Buttons */
+a.animated-button.victoria-one {border: 2px solid #D24D57;min-width: 50px;}
+a.animated-button.victoria-one:after {background: #D24D57;-moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);-ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);-webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);transform: translateX(-50%) translateY(-50%) rotate(-25deg);}
+.col-md-3.col-sm-3.col-xs-6 {display: inline-flex;}
+.sf_operation_buttons {display: inline-block;}
+.display_survey_form_section .header-message {padding: 23px;font-size: 14px;border: 2px solid #e61616;}
+.display_survey_form_section .header-message span {font-weight: 600;}
+.display_survey_form_section .header-message span a {text-decoration: underline;cursor: pointer;}
